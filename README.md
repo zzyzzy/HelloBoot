@@ -18,10 +18,10 @@
 + /src/main/java -> JstlController (/index2)
 
 ### 3. initialize Tiles
-+ add Tiles3 (pom.xml)
++ add Tiles3 dependency (pom.xml)
 + add TilesConfig.java
 + add WEB-INF/tiles.xml
 + add header, footer, template in WEB-INF/tiles
-+ add TilesController.java
-
++ add TilesController.java (/index3)
+ 
 
