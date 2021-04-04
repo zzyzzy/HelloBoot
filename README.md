@@ -26,3 +26,4 @@
  
 ### 4. initialize static content
 + add static content path (application.properties)
++ Build - Rebuild project
