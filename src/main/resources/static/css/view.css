@@ -1,0 +1,10 @@
+.view { width:750px; margin:75px auto; }
+.view div { margin-bottom: 10px; }
+.view label { width: 100px; display: inline-block;
+    font-weight: bold; text-align: right;
+    margin-right: 10px; }
+.contents { display: inline-block;
+    width: 550px; height: 350px;
+    border: 1px solid #dcdcdc;
+    overflow: auto; padding: 5px; }
+.dragup { vertical-align: top; margin-top: 5px; }

@@ -1,0 +1,14 @@
+table { width: 75%; margin: 0 auto; border-collapse: collapse;
+    table-layout: fixed; margin-bottom: 100px; }
+th, td { border: 1px solid black; text-align: center;
+    padding: 10px; }
+td:nth-of-type(2) { white-space: nowrap; overflow: hidden;
+    text-overflow: ellipsis }
+.newbtn { text-align: right; border: none; }
+.bdgnb { border: none; }
+.cpage { font-weight: bold; color: red; font-size: 50px }
+tbody a { font-weight: normal; }
+
+tbody a:link, tbody a:visited { color: darkcyan; }
+tbody a:hover { color: orange; }
+tbody a:active { color: crimson; }

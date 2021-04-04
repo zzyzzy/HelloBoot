@@ -24,4 +24,5 @@
 + add header, footer, template in WEB-INF/tiles
 + add TilesController.java (/index3)
  
-
+### 4. initialize static content
++ add static content path (application.properties)
