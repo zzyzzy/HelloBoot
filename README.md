@@ -5,8 +5,15 @@
 + git config --global user.name "Your Name"
 
 ### 1. initialize Project
-+ Spring DevTools
-+ SpringWeb
++ select Spring DevTools
++ select SpringWeb
 + /src/main/resources/static/index.html 
 + /src/main/java -> IndexController (/index1)
+
+### 2. initialize JSP
++ add tomcat-embed-jasper, jstl dependency (pom.xml)
++ add mvc view prefix, suffix (application.properties)
++ add webapp/WEB-INF/views folder
++ add index.jsp
++ /src/main/java -> JstlController (/index2)
 
