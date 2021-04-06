@@ -27,3 +27,13 @@
 ### 4. initialize static content
 + add static content path (application.properties)
 + Build - Rebuild project
+
+### 5. initialize mybatis + H2
++ add mybatis, h2 dependency (pom.xml)
++ add h2 datasource strings (application.properties)
++ connect local h2 console and create member table
++ add MyBatisConfig.java
++ add /src/main/resources/mybatis3/MemberMapper.xml
+
+
+
