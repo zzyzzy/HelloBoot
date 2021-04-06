@@ -35,5 +35,13 @@
 + add MyBatisConfig.java
 + add /src/main/resources/mybatis3/MemberMapper.xml
 
+### 6. initialize dynamic content
++ add dynamic content (join, login, board)
++ modify TilesController
++ add MemberVO, MemberService, MemberDAO (include interface)
++ add joinMember, loginMember in interface
++ modify WEB-INF/views/tiles/header.jsp  
++ modify WEB-INF/views/myinfo.jsp  
++ Build - Rebuild project
 
 
