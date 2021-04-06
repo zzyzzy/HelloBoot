@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="member">
+
+  <insert id="joinmember" statementType="PREPARED"
+          parameterType="zzyzzy.spring.helloboot.vo.MemberVO">
+	 insert into member (userid, passwd, name, email)
+	 values (#{userid}, #{passwd}, #{name}, #{email})
+  </insert>
+
+  <select id="loginmember" statementType="PREPARED"
+          parameterType="zzyzzy.spring.helloboot.vo.MemberVO"
+          resultType="int">
+      select count(userid) cnt from member
+        where userid = #{userid} and passwd = #{passwd}
+  </select>
+
+</mapper>
+
+
